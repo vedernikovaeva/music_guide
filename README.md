@@ -1,16 +1,28 @@
-# music_guide
+# Music Guide (Довідник меломана)
 
-A new Flutter project.
+Зручний та простий Flutter-додаток для перегляду інформації про музичних виконавців, альбоми та пісні.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Архітектура проєкту
+├── lib/
+│   ├── main.dart                   
+│   ├── models/                    
+│   │   ├── artist.dart             
+│   │   ├── song.dart          
+│   │   └── album.dart              
+│   ├── widgets/                    
+│   │   ├── artist_card.dart        
+│   │   ├── song_card.dart          
+│   │   ├── album_card.dart       
+│   │   ├── artist_list.dart         
+│   │   ├── song_list.dart          
+│   │   └── album_list.dart          
+│   ├── screens/                    
+│   │   ├── home_screen.dart        
+│   │   ├── artists_screen.dart     
+│   │   ├── songs_screen.dart        
+│   │   ├── albums_screen.dart       
+│   │   ├── artist_detail_screen.dart 
+│   │   └── song_detail_screen.dart  
+│   └── data/
+│       └── mock_data.dart          
+└── pubspec.yaml                    
